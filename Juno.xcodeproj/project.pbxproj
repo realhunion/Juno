@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C216A814C75ECB7AA9F5D5F /* Pods_Juno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8864FF827EC626811411A59 /* Pods_Juno.framework */; };
 		7B36BFFB24735F4F00543126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36BFFA24735F4F00543126 /* AppDelegate.swift */; };
-		7B36BFFD24735F4F00543126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36BFFC24735F4F00543126 /* SceneDelegate.swift */; };
 		7B36BFFF24735F4F00543126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36BFFE24735F4F00543126 /* ViewController.swift */; };
 		7B36C00224735F4F00543126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B36C00024735F4F00543126 /* Main.storyboard */; };
 		7B36C00424735F5100543126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B36C00324735F5100543126 /* Assets.xcassets */; };
 		7B36C00724735F5100543126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B36C00524735F5100543126 /* LaunchScreen.storyboard */; };
+		7B36C0182473803700543126 /* ReactBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0102473803500543126 /* ReactBarCell.swift */; };
+		7B36C0192473803700543126 /* ReactBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0112473803500543126 /* ReactBar.swift */; };
+		7B36C01B2473803700543126 /* MembersStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0142473803600543126 /* MembersStackView.swift */; };
+		7B36C01C2473803700543126 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0152473803600543126 /* MemberCell.swift */; };
+		7B36C01D2473803700543126 /* TweetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0162473803700543126 /* TweetManager.swift */; };
+		7B36C01F2473924500543126 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B36C01E2473924500543126 /* GoogleService-Info.plist */; };
+		7B36C0212473940400543126 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0202473940400543126 /* FeedVC.swift */; };
+		7B36C0242473946600543126 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36C0232473946600543126 /* FeedCell.swift */; };
+		7BC8D44F2474B9D500DFDF90 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8D44E2474B9D500DFDF90 /* Utility.swift */; };
+		7BC8D4512474BAC400DFDF90 /* TestVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8D4502474BAC400DFDF90 /* TestVCTableViewController.swift */; };
+		7BC8D4542474D31700DFDF90 /* MyGroupsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8D4532474D31700DFDF90 /* MyGroupsFetcher.swift */; };
+		7BC8D4562474D33D00DFDF90 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8D4552474D33D00DFDF90 /* Group.swift */; };
+		7BC8D4582474D3A600DFDF90 /* MyGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8D4572474D3A600DFDF90 /* MyGroupsVC.swift */; };
+		7BC8D45A2474F10700DFDF90 /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8D4592474F10700DFDF90 /* FeedManager.swift */; };
+		7BFD27BD24745F63009830E1 /* RedditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD27BC24745F63009830E1 /* RedditManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25899674A95882C24AADE903 /* Pods-Juno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Juno.release.xcconfig"; path = "Target Support Files/Pods-Juno/Pods-Juno.release.xcconfig"; sourceTree = "<group>"; };
 		7B36BFF724735F4F00543126 /* Juno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B36BFFA24735F4F00543126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B36BFFC24735F4F00543126 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7B36BFFE24735F4F00543126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B36C00124735F4F00543126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B36C00324735F5100543126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B36C00624735F5100543126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B36C00824735F5100543126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B36C0102473803500543126 /* ReactBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactBarCell.swift; sourceTree = "<group>"; };
+		7B36C0112473803500543126 /* ReactBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactBar.swift; sourceTree = "<group>"; };
+		7B36C0142473803600543126 /* MembersStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersStackView.swift; sourceTree = "<group>"; };
+		7B36C0152473803600543126 /* MemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
+		7B36C0162473803700543126 /* TweetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetManager.swift; sourceTree = "<group>"; };
+		7B36C01E2473924500543126 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B36C0202473940400543126 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7B36C0232473946600543126 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		7BC8D44E2474B9D500DFDF90 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7BC8D4502474BAC400DFDF90 /* TestVCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCTableViewController.swift; sourceTree = "<group>"; };
+		7BC8D4532474D31700DFDF90 /* MyGroupsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsFetcher.swift; sourceTree = "<group>"; };
+		7BC8D4552474D33D00DFDF90 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		7BC8D4572474D3A600DFDF90 /* MyGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsVC.swift; sourceTree = "<group>"; };
+		7BC8D4592474F10700DFDF90 /* FeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
+		7BFD27BC24745F63009830E1 /* RedditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditManager.swift; sourceTree = "<group>"; };
+		B8864FF827EC626811411A59 /* Pods_Juno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Juno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C18246B81F6E9930335E4 /* Pods-Juno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Juno.debug.xcconfig"; path = "Target Support Files/Pods-Juno/Pods-Juno.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C216A814C75ECB7AA9F5D5F /* Pods_Juno.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7E649F69C19C95ADD7F53C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8864FF827EC626811411A59 /* Pods_Juno.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EA06D97559A39A168039AB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C18246B81F6E9930335E4 /* Pods-Juno.debug.xcconfig */,
+				25899674A95882C24AADE903 /* Pods-Juno.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7B36BFEE24735F4F00543126 = {
 			isa = PBXGroup;
 			children = (
 				7B36BFF924735F4F00543126 /* Juno */,
 				7B36BFF824735F4F00543126 /* Products */,
+				6EA06D97559A39A168039AB0 /* Pods */,
+				2A7E649F69C19C95ADD7F53C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,69 @@
 		7B36BFF924735F4F00543126 /* Juno */ = {
 			isa = PBXGroup;
 			children = (
+				7BC8D44E2474B9D500DFDF90 /* Utility.swift */,
 				7B36BFFA24735F4F00543126 /* AppDelegate.swift */,
-				7B36BFFC24735F4F00543126 /* SceneDelegate.swift */,
+				7BC8D4502474BAC400DFDF90 /* TestVCTableViewController.swift */,
+				7BC8D4522474D2FD00DFDF90 /* MyGroups */,
+				7B36C02524739B0500543126 /* Managers */,
+				7B36C0222473945B00543126 /* Feed */,
+				7B36C0132473803600543126 /* MemberStack */,
+				7B36C00F2473803500543126 /* ReactBar */,
 				7B36BFFE24735F4F00543126 /* ViewController.swift */,
-				7B36C00024735F4F00543126 /* Main.storyboard */,
 				7B36C00324735F5100543126 /* Assets.xcassets */,
+				7B36C00024735F4F00543126 /* Main.storyboard */,
 				7B36C00524735F5100543126 /* LaunchScreen.storyboard */,
 				7B36C00824735F5100543126 /* Info.plist */,
+				7B36C01E2473924500543126 /* GoogleService-Info.plist */,
 			);
 			path = Juno;
+			sourceTree = "<group>";
+		};
+		7B36C00F2473803500543126 /* ReactBar */ = {
+			isa = PBXGroup;
+			children = (
+				7B36C0112473803500543126 /* ReactBar.swift */,
+				7B36C0102473803500543126 /* ReactBarCell.swift */,
+			);
+			path = ReactBar;
+			sourceTree = "<group>";
+		};
+		7B36C0132473803600543126 /* MemberStack */ = {
+			isa = PBXGroup;
+			children = (
+				7B36C0142473803600543126 /* MembersStackView.swift */,
+				7B36C0152473803600543126 /* MemberCell.swift */,
+			);
+			path = MemberStack;
+			sourceTree = "<group>";
+		};
+		7B36C0222473945B00543126 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				7B36C0202473940400543126 /* FeedVC.swift */,
+				7B36C0232473946600543126 /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		7B36C02524739B0500543126 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7BC8D4592474F10700DFDF90 /* FeedManager.swift */,
+				7B36C0162473803700543126 /* TweetManager.swift */,
+				7BFD27BC24745F63009830E1 /* RedditManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7BC8D4522474D2FD00DFDF90 /* MyGroups */ = {
+			isa = PBXGroup;
+			children = (
+				7BC8D4552474D33D00DFDF90 /* Group.swift */,
+				7BC8D4532474D31700DFDF90 /* MyGroupsFetcher.swift */,
+				7BC8D4572474D3A600DFDF90 /* MyGroupsVC.swift */,
+			);
+			path = MyGroups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B36C00B24735F5100543126 /* Build configuration list for PBXNativeTarget "Juno" */;
 			buildPhases = (
+				BBC0DDE991DBB6F743DFFB66 /* [CP] Check Pods Manifest.lock */,
 				7B36BFF324735F4F00543126 /* Sources */,
 				7B36BFF424735F4F00543126 /* Frameworks */,
 				7B36BFF524735F4F00543126 /* Resources */,
+				C224549843DF1E573F84BE9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +236,53 @@
 				7B36C00724735F5100543126 /* LaunchScreen.storyboard in Resources */,
 				7B36C00424735F5100543126 /* Assets.xcassets in Resources */,
 				7B36C00224735F4F00543126 /* Main.storyboard in Resources */,
+				7B36C01F2473924500543126 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBC0DDE991DBB6F743DFFB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Juno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C224549843DF1E573F84BE9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Juno/Pods-Juno-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Juno/Pods-Juno-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Juno/Pods-Juno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B36BFF324735F4F00543126 /* Sources */ = {
@@ -139,8 +290,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B36BFFF24735F4F00543126 /* ViewController.swift in Sources */,
+				7BC8D4542474D31700DFDF90 /* MyGroupsFetcher.swift in Sources */,
+				7BFD27BD24745F63009830E1 /* RedditManager.swift in Sources */,
+				7B36C0242473946600543126 /* FeedCell.swift in Sources */,
+				7BC8D44F2474B9D500DFDF90 /* Utility.swift in Sources */,
+				7B36C0212473940400543126 /* FeedVC.swift in Sources */,
+				7BC8D4582474D3A600DFDF90 /* MyGroupsVC.swift in Sources */,
+				7B36C01D2473803700543126 /* TweetManager.swift in Sources */,
+				7BC8D4562474D33D00DFDF90 /* Group.swift in Sources */,
+				7B36C0192473803700543126 /* ReactBar.swift in Sources */,
+				7B36C01C2473803700543126 /* MemberCell.swift in Sources */,
+				7BC8D45A2474F10700DFDF90 /* FeedManager.swift in Sources */,
+				7B36C0182473803700543126 /* ReactBarCell.swift in Sources */,
 				7B36BFFB24735F4F00543126 /* AppDelegate.swift in Sources */,
-				7B36BFFD24735F4F00543126 /* SceneDelegate.swift in Sources */,
+				7BC8D4512474BAC400DFDF90 /* TestVCTableViewController.swift in Sources */,
+				7B36C01B2473803700543126 /* MembersStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +446,13 @@
 		};
 		7B36C00C24735F5100543126 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2C18246B81F6E9930335E4 /* Pods-Juno.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y744KKUHU;
 				INFOPLIST_FILE = Juno/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +460,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = theBumpInitiative.Juno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7B36C00D24735F5100543126 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25899674A95882C24AADE903 /* Pods-Juno.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Y744KKUHU;
 				INFOPLIST_FILE = Juno/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = theBumpInitiative.Juno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

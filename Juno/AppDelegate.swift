@@ -5,33 +5,60 @@
 //  Created by Hunain Ali on 5/18/20.
 //  Copyright © 2020 BUMP. All rights reserved.
 //
+//
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    var window: UIWindow?
+//    var pluto : Pluto?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.configureMyFirebase()
+        
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+//        self.pluto = Pluto()
+        self.feedVC = FeedVC(collectionViewLayout: UICollectionViewFlowLayout())
+        let myGroupsVC = MyGroupsVC(style: .plain)
+        let myGroupsNC = UINavigationController(rootViewController: myGroupsVC)
+        let tvc2 = TestVCTableViewController(style: .insetGrouped)
+        let snapContainer = SnapContainerViewController.containerViewWith(myGroupsNC, middleVC: feedVC!, rightVC: tvc2, topVC: nil, bottomVC: nil, directionLockDisabled: nil)
+        self.window?.rootViewController = snapContainer
+        //        self.window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    
+    var feedVC : FeedVC?
+    
+    
+    func applicationWillEnterForeground(_ application: UIApplication) {
+//        self.feedVC?.setupFetcher()
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    
+    
+    
+    
+    // MARK: - Configure Firebase
+    
+    func configureMyFirebase() {
+        FirebaseApp.configure()
+        let settings = FirestoreSettings()
+        settings.isPersistenceEnabled = false
+        Firestore.firestore().settings = settings
     }
-
-
+    
+    
+    
+    
+    
+    
+    
+    
 }
-
